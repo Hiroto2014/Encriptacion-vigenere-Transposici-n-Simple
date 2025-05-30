@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Encriptacion-vigenere-Transposici-n-Simple
-=======
+
 # 🔐 Cifrador de Texto con Interfaz Gráfica en Python
 
 Este proyecto es una aplicación de escritorio sencilla construida en Python con `tkinter`, que permite cifrar y descifrar mensajes utilizando dos métodos clásicos de criptografía:
