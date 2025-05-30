@@ -1,4 +1,4 @@
-# Encriptacion-vigenere-Transposici-n-Simple
+# Encriptacion Vigenere Transposición Simple
 
 # 🔐 Cifrador de Texto con Interfaz Gráfica en Python
 
@@ -32,5 +32,5 @@ Este proyecto es una aplicación de escritorio sencilla construida en Python con
 2. Ejecuta el programa:
 
 ```bash
-python cifrador.py
->>>>>>> 6406df5df9e1341b40091d38807a35e08df5ce2b
+      python main.py
+```
