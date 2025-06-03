@@ -41,17 +41,17 @@ def transposition_decrypt(ciphertext, key):
     num_rows = key
     num_shaded = (num_cols * num_rows) - len(ciphertext)
 
-    plaintext = [''] * num_cols
+    text = [''] * num_cols
     col = 0
     row = 0
 
     for symbol in ciphertext:
-        plaintext[col] += symbol
+        text[col] += symbol
         col += 1
         if (col == num_cols) or (col == num_cols - 1 and row >= num_rows - num_shaded):
             col = 0
             row += 1
-    return ''.join(plaintext)
+    return ''.join(text)
 
 # ---------------- Interfaz ---------------- #
 
